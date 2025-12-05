@@ -17,7 +17,8 @@
 		font-size: $timer-hudstatus-font-size;
 		font-weight: $timer-hudstatus-font-weight;
 		text-align: center;
-		align: center center;
+		align: left center;
 		color: $timer-hudstatus-color;
+        padding-left: 12px;
 	}
 }

@@ -38,12 +38,6 @@
 			<MomHudConcCooktime />
 			<MomHudStickyCharge />
 			<MomHudStickyCount />
-			<ConVarEnabler convar="mom_zoning_enable" invert="true" togglevisibility="true">
-				<MomHudStatus />
-			</ConVarEnabler>
-			<ConVarEnabler convar="mom_zoning_enable" invert="true" togglevisibility="true">
-				<MomHudTimer />
-			</ConVarEnabler>
 			<MomHudStrafeSync />
 			<MomHudGroundboost />
 			<HudHintText id="HudHintText" />
@@ -54,6 +48,12 @@
 			<MomHudPowerupTimer />
 			<HudStaticMenu />
 			<MomHudChat />
+            <ConVarEnabler convar="mom_zoning_enable" invert="true" togglevisibility="true">
+				<MomHudStatus />
+			</ConVarEnabler>
+			<ConVarEnabler convar="mom_zoning_enable" invert="true" togglevisibility="true">
+				<MomHudTimer />
+			</ConVarEnabler>
 		</Panel>
 
 		<!-- Anchored on lower-right corner, laid out from top to bottom -->
