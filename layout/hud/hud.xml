@@ -23,7 +23,7 @@
 
 		<!-- HUD anchored to top-left corner of screen, laid out vertically top-to-bottom -->
 		<Panel id="HudTopLeft" hittest="false" hittestchildren="false">
-			<HudComparisons />
+			
 		</Panel>
 
 		<!-- Anchored to below the center of the screen, laid out from top to bottom -->
@@ -48,9 +48,7 @@
 			<MomHudPowerupTimer />
 			<HudStaticMenu />
 			<MomHudChat />
-            <ConVarEnabler convar="mom_zoning_enable" invert="true" togglevisibility="true">
-				<MomHudStatus />
-			</ConVarEnabler>
+            <HudComparisons />
 			<ConVarEnabler convar="mom_zoning_enable" invert="true" togglevisibility="true">
 				<MomHudTimer />
 			</ConVarEnabler>
@@ -67,6 +65,9 @@
 		<Panel id="HudTopRight" hittest="false" hittestchildren="false">
 			<MomHudVersionInfo />
 			<MomHudMapInfo />
+            <ConVarEnabler convar="mom_zoning_enable" invert="true" togglevisibility="true">
+				<MomHudStatus />
+			</ConVarEnabler>
 			<MomHudSpecInfo />
 			<MomHudWeaponSelection />
 		</Panel>

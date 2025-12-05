@@ -13,7 +13,7 @@
 
 	&__time {
 		horizontal-align: left;
-        padding-left: 12px;
+        padding-left: 20px;
 
 		@include mixin.font-regular();
 		font-weight: $timer-font-weight;
