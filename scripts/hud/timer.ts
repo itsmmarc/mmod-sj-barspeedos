@@ -2,7 +2,7 @@ import { PanelHandler } from 'util/module-helpers';
 import { HideHud } from 'common/state';
 import * as Timer from 'common/timer';
 
-const DIFF_DISPLAY_TIME = 5;
+const DIFF_DISPLAY_TIME = 120;
 const HIDDEN_CLASS = 'hudtimer--hidden';
 const INACTIVE_CLASS = 'hudtimer__time--inactive';
 const FINISHED_CLASS = 'hudtimer__time--finished';

@@ -6,6 +6,7 @@
 	width: 100%;
 	align: center center;
 	margin: 6px 0px 6px 0;
+    padding-left: 20px;
 
 	&--hidden {
 		opacity: 0;
@@ -13,7 +14,6 @@
 
 	&__time {
 		horizontal-align: left;
-        padding-left: 20px;
 
 		@include mixin.font-regular();
 		font-weight: $timer-font-weight;
@@ -33,12 +33,12 @@
 	}
 
 	&__comparison {
-		horizontal-align: center;
+		horizontal-align: left;
 
 		@include mixin.font-regular();
 		font-weight: $timer-comp-font-weight;
 		font-size: $timer-comp-font-size;
-		text-align: center;
+		text-align: left;
 		color: $timer-comp-color;
 
 		transition-property: opacity;
