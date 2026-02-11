@@ -1,0 +1,12 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/main.scss" />
+	</styles>
+	
+	<scripts>
+		<include type="module" src="file://{scripts}/hud/speedo-bar-padding.ts" />
+	</scripts>
+
+	<Panel class="speedobarspadding">
+	</Panel>
+</root>
