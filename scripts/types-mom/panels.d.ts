@@ -18,6 +18,7 @@ interface PanelTagNameMap {
 	MomHudReplayControls: MomHudReplayControls;
 	MomHudStickyCharge: MomHudStickyCharge;
 	MomHudSpeedoBar: MomHudSpeedoBar;
+	MomHudSpeedoBarPadding: MomHudSpeedoBarPadding;
 	MomHudStrafeSync: MomHudStrafeSync;
 	MomHudDFJump: MomHudDFJump;
 	MomHudJumpTiming: MomHudJumpTiming;
@@ -128,6 +129,7 @@ interface MomHudStickyCharge extends AbstractHudPanel<'MomHudStickyCharge'> {
 }
 
 interface MomHudSpeedoBar extends AbstractHudPanel<'MomHudSpeedoBar'> {}
+interface MomHudSpeedoBarPadding extends AbstractHudPanel<'MomHudSpeedoBarPadding'> {}
 
 interface MomHudStrafeSync extends AbstractHudPanel<'MomHudStrafeSync'> {
 	readonly strafesyncType: 0 | 1;
