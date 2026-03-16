@@ -8,8 +8,10 @@
 	</scripts>
 
 	<Panel class="camera-overlay">
+                <Panel class="horizontal horizontal__c" />
                 <Panel class="horizontal horizontal__1" />
                 <Panel class="horizontal horizontal__2" />
+                <Panel class="vertical vertical__c" />
 	        <Panel class="vertical vertical__1" />
                 <Panel class="vertical vertical__2" />
         </Panel>
