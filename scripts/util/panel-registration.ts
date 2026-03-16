@@ -29,6 +29,7 @@ declare interface PanelTagNameMap {
 	ToastContainer: ToastContainer;
 	ToastGeneric: ToastGeneric;
 	Gallery: Gallery;
+	MomHudCameraOverlay: MomHudCameraOverlay;
 }
 
 declare interface PlayerCard extends AbstractPanel<'PlayerCard'> {
@@ -83,3 +84,6 @@ UiToolkitAPI.RegisterHUDPanel2d('MomHudPowerupTimer', 'file://{resources}/layout
 
 declare interface MomHudSafeguardIndicator extends AbstractHudPanel<'MomHudSafeguardIndicator'> {}
 UiToolkitAPI.RegisterHUDPanel2d('MomHudSafeguardIndicator', 'file://{resources}/layout/hud/safeguard-indicator.xml');
+
+declare interface MomHudCameraOverlay extends AbstractHudPanel<'MomHudCameraOverlay'> {}
+UiToolkitAPI.RegisterHUDPanel2d('MomHudCameraOverlay', 'file://{resources}/layout/hud/camera-overlay.xml');

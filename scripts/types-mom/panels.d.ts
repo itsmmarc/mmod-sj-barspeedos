@@ -23,6 +23,7 @@ interface PanelTagNameMap {
 	MomHudStrafeTrainer: MomHudStrafeTrainer;
 	MomHudSpectate: MomHudSpectate;
 	ZoneMenu: ZoneMenu;
+	MomHudCameraOverlay: MomHudCameraOverlay;
 }
 
 interface MomentumChat extends AbstractPanel<'MomentumChat'> {
@@ -190,3 +191,5 @@ interface ZoneMenu extends AbstractPanel<'ZoneMenu'> {
 		region: import('common/web/types/models/models').Region
 	): import('common/web/types/models/models').Region;
 }
+
+interface MomHudCameraOverlay extends AbstractHudPanel<'MomHudCameraOverlay'> {}

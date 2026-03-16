@@ -19,6 +19,7 @@
 		<Panel id="HudCenter" hittest="false" hittestchildren="false">
 			<MomHudSafeguardIndicator />
 			<MomHudJumpTiming />
+                        <MomHudCameraOverlay />
 		</Panel>
 
 		<!-- HUD anchored to top-left corner of screen, laid out vertically top-to-bottom -->
@@ -30,7 +31,7 @@
 		<!-- misleading name, not 'bottom-center' but 'below center' -->
 		<Panel id="HudBottomCenter" hittest="false" hittestchildren="false">
 			<!-- Anchored on Bottom-center, laid out from top to bottom -->
-			<ConVarEnabler convar="mom_zoning_enable" togglevisibility="true">
+			<!-- <ConVarEnabler convar="mom_zoning_enable" togglevisibility="true">
 				<MomHudZoning />
 			</ConVarEnabler>
 			<MomHudStrafeTrainer />
@@ -46,7 +47,7 @@
 			</ConVarEnabler>
 			<MomHudStrafeSync />
 			<MomHudGroundboost />
-			<HudHintText id="HudHintText" />
+			<HudHintText id="HudHintText" /> -->
 		</Panel>
 
 		<!-- Anchored to the bottom-left corner of the screen, laid out from top to bottom -->
@@ -58,9 +59,9 @@
 
 		<!-- Anchored on lower-right corner, laid out from top to bottom -->
 		<Panel id="HudBottomRight" hittest="false" hittestchildren="false">
-			<MomHudDFJump />
+			<!-- <MomHudDFJump />
 			<MomHudAmmo />
-			<MomHudKeyPress />
+			<MomHudKeyPress /> -->
 		</Panel>
 
 		<!-- Anchored in top right corner of screen, laid out from top-to-bottom -->
