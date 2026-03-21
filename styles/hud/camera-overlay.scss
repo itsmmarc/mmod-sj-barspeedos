@@ -1,6 +1,7 @@
-$cam-line-width: 1px;
+$cam-line-width: 2px;
+$cam-line-width-half: 1px;
 $cam-line-color: grey;
-$cam-line-color-light: rgba(128, 128, 128, 0.072);
+$cam-line-color-light: rgb(148, 148, 148);
 .camera-overlay {
 	vertical-align: center;
 	horizontal-align: center;
@@ -11,6 +12,8 @@ $cam-line-color-light: rgba(128, 128, 128, 0.072);
 		height: $cam-line-width;
 		width: 100%;
 		background-color: $cam-line-color;
+		y: -$cam-line-width-half;
+		box-shadow: 0 1px 5px rgb(0, 0, 0);
 
 		&__c {
 			margin-top: 50%;
@@ -27,7 +30,8 @@ $cam-line-color-light: rgba(128, 128, 128, 0.072);
 		height: 100%;
 		width: $cam-line-width;
 		background-color: $cam-line-color;
-
+		x: -$cam-line-width-half;
+		box-shadow: 0 1px 5px rgb(0, 0, 0);
 		&__c {
 			margin-left: 50%;
 			background-color: $cam-line-color-light;
