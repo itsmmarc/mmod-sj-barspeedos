@@ -31,6 +31,7 @@ declare interface PanelTagNameMap {
 	ToastContainer: ToastContainer;
 	ToastGeneric: ToastGeneric;
 	Gallery: Gallery;
+	MomHudSpeedoBars: MomHudSpeedoBars;
 }
 
 declare interface PlayerCard extends AbstractPanel<'PlayerCard'> {
@@ -97,3 +98,6 @@ UiToolkitAPI.RegisterHUDPanel2d('MomHudKeypress', 'file://{resources}/layout/hud
 
 declare interface MomHudAhopSprint extends AbstractHudPanel<'MomHudAhopSprint'> {}
 UiToolkitAPI.RegisterHUDPanel2d('MomHudAhopSprint', 'file://{resources}/layout/hud/ahop-sprint.xml');
+
+declare interface MomHudSpeedoBars extends AbstractHudPanel<'MomHudSpeedoBars'> {}
+UiToolkitAPI.RegisterHUDPanel2d('MomHudSpeedoBars', 'file://{resources}/layout/hud/speedo-bar.xml');

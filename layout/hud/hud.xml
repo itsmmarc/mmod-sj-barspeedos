@@ -38,6 +38,7 @@
         <MomHudJumpStats id="JumpStats"/>
         <MomHudStickyCharge id="StickyCharge" />
 		<MomHudStickyCount id="StickyCount" />
+        <MomHudSpeedoBars id="SpeedoBars" />
         <MomHudConcCooktime id="ConcCooktime" />
         <MomHudGroundboost id="Groundboost" />
         <MomHudDFJump id="DFJump"/>
